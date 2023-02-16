@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+.container {
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.j_between {
+    justify-content: space-between;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.mr_50 {
+    margin-right: 270px;
+}
+
+.J_content_end {
+    justify-content: end;
+}
+
+.ml_30 {
+    margin-left: 50px;
+}
+
+.py_20 {
+    padding: 20px;
+}
+
+.all {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+
+    color: #000000;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.Hi {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.Amet {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.Download_font {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 15px 20px;
+    display: inline-block;
+    color: #FFFFFF;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+}
+
+
+
+.w_100 {
+    width: 100%;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.mt_50 {
+    margin-top: 30px;
+}
+
+.mt_100 {
+    margin-top: 20 px;
+    align-items: center;
+    display: flex;
+}
+
+.all_center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg_clr {
+    background-color: #EDF7FA;
+}
+
+.Recent {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-end;
+    color: #21243D;
+}
+
+.View {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: right;
+    color: #00A8CC;
+
+}
+
+.mt_10 {
+    margin-top: 10px;
+}
+
+.py_10 {
+    padding: 45px;
+}
+
+.shadow {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+.Making {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+
+.Feb {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+
+}
+
+.ml_10 {
+    margin-left: 10px;
+}
+
+.line {
+    height: 25px;
+    border: 1px solid #000000;
+}
+
+.minim {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+
+}
+
+.Featured {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+
+}
+
+.Designing {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+.mt_30 {
+    margin-top: 25px;
+}
+
+
+
+.but_font {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 5px 15px;
+    background: #142850;
+    border-radius: 16px;
+}
+
+.Dashboard {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+
+}
+
+.line_1 {
+    width: 100%;
+    border: 1px solid #c21616;
+}
+
+.Copyright {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
+
+@media (max-width:768px) {
+    .f_column_reverse_sm {
+        flex-direction: column-reverse;
+    }
+
+    .all_center_sm {
+        align-items: center;
+    }
+
+    .center_sm {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .f_column_sm {
+        flex-direction: column;
+    }
+
+    .mt_10_sm {
+
+        margin-top: 20px;
+    }
+
+    .w_100_max {
+        width: 100%;
+    }
+
+    .col-12_sm {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .m_0_sm {
+        margin: 0px;
+    }
+
+
+}
+
+
+
+@media (max-width:576px) {
+
+
+    .font_size_xsm {
+
+        font-size: 25px;
+    }
+
+
+
+}
+
+
+
+@media (max-width:992px) {
+    .J_content_end_lg {
+        justify-content: center;
+    }
+}
+
+@media (min-width:992px) {
+    .J_content_end_lg {
+        justify-content: end;
+    }
+
+    .mr_50_lg {
+        margin-right: 50px;
+    }
+}
